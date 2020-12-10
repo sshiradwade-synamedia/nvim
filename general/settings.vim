@@ -91,3 +91,5 @@ nmap <C-p> <Plug>MarkdownPreviewToggleA
 " Programming
 " Add missing imports on save
 autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
+
+:nmap ge :CocCommand explorer<CR>

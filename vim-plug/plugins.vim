@@ -178,6 +178,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Programming
     " GO
     "Plug 'fatih/vim-go' 
+    "
+    " JS/TS
+    Plug 'pangloss/vim-javascript'    " JavaScript support
+    Plug 'leafgarland/typescript-vim' " TypeScript syntax
+    Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
    
 call plug#end()
 
